@@ -39,7 +39,7 @@ static const String routeName="/home";
           slideWidth: MediaQuery.of(context).size.width*0.8,
           menuBackgroundColor: Colors.black,
           
-           menuScreen: MyMenuScreen(),
+           menuScreen: const MyMenuScreen(),
            mainScreen: Container(
            decoration: BoxDecoration(gradient: mainGradient()),        
            child:SafeArea(
